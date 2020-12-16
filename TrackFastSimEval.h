@@ -46,6 +46,9 @@ class TrackFastSimEval : public SubsysReco {
 
   // 1D dp/p histogram;
   TH1D *_h1d_Delta_mom;
+  TH1D *h2;
+  TH1D *h3;
+
 };
 
 #endif
