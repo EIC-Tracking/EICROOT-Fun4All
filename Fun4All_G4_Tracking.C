@@ -40,12 +40,13 @@ void Fun4All_G4_Tracking(int nEvents = 1000)
   {
     auto gen = new PHG4ParticleGenerator();
 
-    gen->set_name("pi+");           	  // geantino, pi-, pi+, mu-, mu+, e-., e+, proton, ... 
-    gen->set_vtx(0,0,0);		  // Vertex generation range
-    gen->set_mom_range(10., 10.);	  // Momentum generation range in GeV/c
-    gen->set_eta_range(-.1,.1);		  // Detector coverage around theta ~ 90 degrees in this example
+    gen->set_name("pi+");                 // geantino, pi-, pi+, mu-, mu+, e-., e+, proton, ...                                                       
+    gen->set_vtx(0,0,0);                  // Vertex generation range                                                                                  
+    gen->set_mom_range(10., 10.);         // Momentum generation range in GeV/c                                                                       
+    gen->set_eta_range(-1.5,1.5);                 // Detector coverage around theta ~ 90 degrees in this example                                      
     gen->set_phi_range(0.,2.*TMath::Pi());
-    se->registerSubsystem(gen); 
+    se->registerSubsystem(gen);
+
   }
 
   // fun4all Geant4 wrapper;
@@ -104,10 +105,11 @@ void Fun4All_G4_Tracking(int nEvents = 1000)
       //   - segmentation in phi;
       //   - Z offset from 0.0 (default);
       //   - azimuthal rotation from 0.0 (default);
-      mmt->AddBarrel(layer, 600 * etm::mm, 2, 300 * etm::mm, 3, 0.0, 0.0);
+     mmt->AddBarrel(layer, 600 * etm::mm, 2, 300 * etm::mm, 3, 0.0, 0.0);
       mmt->AddBarrel(layer, 600 * etm::mm, 3, 400 * etm::mm, 4, 0.0, 0.0);
-      
+      mmt->AddBarrel(layer, 2400 * etm::mm, 4, 600 * etm::mm, 4, 0.0, 0.0);
       mmt->SetTransparency(50);
+
     }
 
     g4Reco->registerSubsystem(mmt);
