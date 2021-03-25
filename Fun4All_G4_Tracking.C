@@ -466,8 +466,7 @@ filter acceptance
         //SVT                                                                                                                                         
 	//This adds the hit nodes for EACH LAYER OF THE DETECTOR.                                                                                     
         for (int i = 10; i < 10+_NO_OF_BARREL_LAYERS_; i++) {
-          std::string nodeName = "G4HIT_SVT_" + std::to_string(i); // ****** THIS NEEDS TO MATCH THE NAME FROM GetName() in GdmlImportDetector.cc ***\
-***                                                                                                                                                   
+          std::string nodeName = "G4HIT_SVT_" + std::to_string(i); // ****** THIS NEEDS TO MATCH THE NAME FROM GetName() in GdmlImportDetector.cc ******                                                                                                                                                   
           kalman->add_phg4hits(
                                nodeName,// const std::string& phg4hitsNames                                                                           
                                PHG4TrackFastSim::Cylinder,// const DETECTOR_TYPE phg4dettype                                                          
