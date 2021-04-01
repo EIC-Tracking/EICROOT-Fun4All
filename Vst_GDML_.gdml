@@ -1,0 +1,1628 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="VstCellFlexLayer00_0inVstChipAssembly00pos" x="0" y="0" z="-0.24759074277" unit="cm"/>
+    <position name="VstAluStrips00_0inVstChipAssembly00pos" x="0" y="0" z="-0.24009074277" unit="cm"/>
+    <position name="VstMimosaCore00_0inVstMimosaShell00pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="VstMimosaShell00_0inVstChipAssembly00pos" x="0" y="0" z="-0.23509074277" unit="cm"/>
+    <position name="VstColdPlate00_0inVstChipAssembly00pos" x="0" y="0" z="-0.21934074277" unit="cm"/>
+    <position name="VstWaterPipe00_0inVstChipAssembly00pos" x="0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWaterPipe00_0inVstChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater00_0inVstChipAssembly00pos" x="0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWater00_0inVstChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWaterPipe00_1inVstChipAssembly00pos" x="-0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWaterPipe00_1inVstChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater00_1inVstChipAssembly00pos" x="-0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWater00_1inVstChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamApex00_0inVstChipAssembly00pos" x="0" y="0" z="0.203827948354" unit="cm"/>
+    <rotation name="VstEnforcementBeamApex00_0inVstChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamBase00_0inVstChipAssembly00pos" x="-0.63" y="0" z="-0.171449726619" unit="cm"/>
+    <position name="VstEnforcementBeamBase00_1inVstChipAssembly00pos" x="0.63" y="0" z="-0.171449726619" unit="cm"/>
+    <rotation name="VstEnforcementBeamBase00_1inVstChipAssembly00rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="VstFlatRoof00_2inVstSideWall00pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="VstRoofSideBeam00_0inVstSideWall00pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam00_0inVstSideWall00rot" x="0" y="-0" z="-39.0481739949" unit="deg"/>
+    <position name="VstRoofSideBeam00_1inVstSideWall00pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam00_1inVstSideWall00rot" x="0" y="-0" z="39.0481739949" unit="deg"/>
+    <position name="VstRoofSideBeam00_2inVstSideWall00pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam00_2inVstSideWall00rot" x="0" y="-0" z="-39.0481739949" unit="deg"/>
+    <position name="VstRoofSideBeam00_3inVstSideWall00pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam00_3inVstSideWall00rot" x="0" y="-0" z="39.0481739949" unit="deg"/>
+    <position name="VstSideWall00_0inVstChipAssembly00pos" x="0.38125" y="0" z="0.021240925723" unit="cm"/>
+    <rotation name="VstSideWall00_0inVstChipAssembly00rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="VstSideWall00_1inVstChipAssembly00pos" x="-0.38125" y="0" z="0.021240925723" unit="cm"/>
+    <rotation name="VstSideWall00_1inVstChipAssembly00rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="VstChipAssembly00_0inVstStave00pos" x="0" y="-12.04" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_1inVstStave00pos" x="0" y="-9.03" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_2inVstStave00pos" x="0" y="-6.02" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_3inVstStave00pos" x="0" y="-3.01" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_4inVstStave00pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_5inVstStave00pos" x="0" y="3.01" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_6inVstStave00pos" x="0" y="6.02" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_7inVstStave00pos" x="0" y="9.03" z="0" unit="cm"/>
+    <position name="VstChipAssembly00_8inVstStave00pos" x="0" y="12.04" z="0" unit="cm"/>
+    <position name="VstStave00_0inVSTpos" x="0" y="2.57187735693" z="0" unit="cm"/>
+    <rotation name="VstStave00_0inVSTrot" x="90" y="-12" z="0" unit="deg"/>
+    <position name="VstStave00_1inVSTpos" x="1.28593867846" y="2.22731112652" z="0" unit="cm"/>
+    <rotation name="VstStave00_1inVSTrot" x="90" y="-42" z="0" unit="deg"/>
+    <position name="VstStave00_2inVSTpos" x="2.22731112652" y="1.28593867846" z="0" unit="cm"/>
+    <rotation name="VstStave00_2inVSTrot" x="90" y="-72" z="0" unit="deg"/>
+    <position name="VstStave00_3inVSTpos" x="2.57187735693" y="1.57482068648e-16" z="0" unit="cm"/>
+    <rotation name="VstStave00_3inVSTrot" x="-90" y="-78" z="180" unit="deg"/>
+    <position name="VstStave00_4inVSTpos" x="2.22731112652" y="-1.28593867846" z="0" unit="cm"/>
+    <rotation name="VstStave00_4inVSTrot" x="-90" y="-48" z="180" unit="deg"/>
+    <position name="VstStave00_5inVSTpos" x="1.28593867846" y="-2.22731112652" z="0" unit="cm"/>
+    <rotation name="VstStave00_5inVSTrot" x="-90" y="-18" z="180" unit="deg"/>
+    <position name="VstStave00_6inVSTpos" x="3.14964137296e-16" y="-2.57187735693" z="0" unit="cm"/>
+    <rotation name="VstStave00_6inVSTrot" x="-90" y="12" z="180" unit="deg"/>
+    <position name="VstStave00_7inVSTpos" x="-1.28593867846" y="-2.22731112652" z="0" unit="cm"/>
+    <rotation name="VstStave00_7inVSTrot" x="-90" y="42" z="180" unit="deg"/>
+    <position name="VstStave00_8inVSTpos" x="-2.22731112652" y="-1.28593867846" z="0" unit="cm"/>
+    <rotation name="VstStave00_8inVSTrot" x="-90" y="72" z="180" unit="deg"/>
+    <position name="VstStave00_9inVSTpos" x="-2.57187735693" y="-4.72446205945e-16" z="0" unit="cm"/>
+    <rotation name="VstStave00_9inVSTrot" x="90" y="78" z="0" unit="deg"/>
+    <position name="VstStave00_10inVSTpos" x="-2.22731112652" y="1.28593867846" z="0" unit="cm"/>
+    <rotation name="VstStave00_10inVSTrot" x="90" y="48" z="0" unit="deg"/>
+    <position name="VstStave00_11inVSTpos" x="-1.28593867846" y="2.22731112652" z="0" unit="cm"/>
+    <rotation name="VstStave00_11inVSTrot" x="90" y="18" z="0" unit="deg"/>
+    <position name="VstCellFlexLayer01_0inVstChipAssembly01pos" x="0" y="0" z="-0.24759074277" unit="cm"/>
+    <position name="VstAluStrips01_0inVstChipAssembly01pos" x="0" y="0" z="-0.24009074277" unit="cm"/>
+    <position name="VstMimosaCore01_0inVstMimosaShell01pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="VstMimosaShell01_0inVstChipAssembly01pos" x="0" y="0" z="-0.23509074277" unit="cm"/>
+    <position name="VstColdPlate01_0inVstChipAssembly01pos" x="0" y="0" z="-0.21934074277" unit="cm"/>
+    <position name="VstWaterPipe01_0inVstChipAssembly01pos" x="0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWaterPipe01_0inVstChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater01_0inVstChipAssembly01pos" x="0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWater01_0inVstChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWaterPipe01_1inVstChipAssembly01pos" x="-0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWaterPipe01_1inVstChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater01_1inVstChipAssembly01pos" x="-0.25" y="0" z="-0.15239074277" unit="cm"/>
+    <rotation name="VstWater01_1inVstChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamApex01_0inVstChipAssembly01pos" x="0" y="0" z="0.203827948354" unit="cm"/>
+    <rotation name="VstEnforcementBeamApex01_0inVstChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamBase01_0inVstChipAssembly01pos" x="-0.63" y="0" z="-0.171449726619" unit="cm"/>
+    <position name="VstEnforcementBeamBase01_1inVstChipAssembly01pos" x="0.63" y="0" z="-0.171449726619" unit="cm"/>
+    <rotation name="VstEnforcementBeamBase01_1inVstChipAssembly01rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="VstFlatRoof01_2inVstSideWall01pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="VstRoofSideBeam01_0inVstSideWall01pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam01_0inVstSideWall01rot" x="0" y="-0" z="-39.0481739949" unit="deg"/>
+    <position name="VstRoofSideBeam01_1inVstSideWall01pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam01_1inVstSideWall01rot" x="0" y="-0" z="39.0481739949" unit="deg"/>
+    <position name="VstRoofSideBeam01_2inVstSideWall01pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam01_2inVstSideWall01rot" x="0" y="-0" z="-39.0481739949" unit="deg"/>
+    <position name="VstRoofSideBeam01_3inVstSideWall01pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam01_3inVstSideWall01rot" x="0" y="-0" z="39.0481739949" unit="deg"/>
+    <position name="VstSideWall01_0inVstChipAssembly01pos" x="0.38125" y="0" z="0.021240925723" unit="cm"/>
+    <rotation name="VstSideWall01_0inVstChipAssembly01rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="VstSideWall01_1inVstChipAssembly01pos" x="-0.38125" y="0" z="0.021240925723" unit="cm"/>
+    <rotation name="VstSideWall01_1inVstChipAssembly01rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="VstChipAssembly01_0inVstStave01pos" x="0" y="-12.04" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_1inVstStave01pos" x="0" y="-9.03" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_2inVstStave01pos" x="0" y="-6.02" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_3inVstStave01pos" x="0" y="-3.01" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_4inVstStave01pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_5inVstStave01pos" x="0" y="3.01" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_6inVstStave01pos" x="0" y="6.02" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_7inVstStave01pos" x="0" y="9.03" z="0" unit="cm"/>
+    <position name="VstChipAssembly01_8inVstStave01pos" x="0" y="12.04" z="0" unit="cm"/>
+    <position name="VstStave01_0inVSTpos" x="0" y="4.91213810775" z="0" unit="cm"/>
+    <rotation name="VstStave01_0inVSTrot" x="90" y="-12" z="0" unit="deg"/>
+    <position name="VstStave01_1inVSTpos" x="1.27135489446" y="4.74476106058" z="0" unit="cm"/>
+    <rotation name="VstStave01_1inVSTrot" x="90" y="-27" z="0" unit="deg"/>
+    <position name="VstStave01_2inVSTpos" x="2.45606905388" y="4.25403638821" z="0" unit="cm"/>
+    <rotation name="VstStave01_2inVSTrot" x="90" y="-42" z="0" unit="deg"/>
+    <position name="VstStave01_3inVSTpos" x="3.47340616612" y="3.47340616612" z="0" unit="cm"/>
+    <rotation name="VstStave01_3inVSTrot" x="90" y="-57" z="0" unit="deg"/>
+    <position name="VstStave01_4inVSTpos" x="4.25403638821" y="2.45606905388" z="0" unit="cm"/>
+    <rotation name="VstStave01_4inVSTrot" x="90" y="-72" z="0" unit="deg"/>
+    <position name="VstStave01_5inVSTpos" x="4.74476106058" y="1.27135489446" z="0" unit="cm"/>
+    <rotation name="VstStave01_5inVSTrot" x="90" y="-87" z="0" unit="deg"/>
+    <position name="VstStave01_6inVSTpos" x="4.91213810775" y="3.00781710531e-16" z="0" unit="cm"/>
+    <rotation name="VstStave01_6inVSTrot" x="-90" y="-78" z="180" unit="deg"/>
+    <position name="VstStave01_7inVSTpos" x="4.74476106058" y="-1.27135489446" z="0" unit="cm"/>
+    <rotation name="VstStave01_7inVSTrot" x="-90" y="-63" z="180" unit="deg"/>
+    <position name="VstStave01_8inVSTpos" x="4.25403638821" y="-2.45606905388" z="0" unit="cm"/>
+    <rotation name="VstStave01_8inVSTrot" x="-90" y="-48" z="180" unit="deg"/>
+    <position name="VstStave01_9inVSTpos" x="3.47340616612" y="-3.47340616612" z="0" unit="cm"/>
+    <rotation name="VstStave01_9inVSTrot" x="-90" y="-33" z="180" unit="deg"/>
+    <position name="VstStave01_10inVSTpos" x="2.45606905388" y="-4.25403638821" z="0" unit="cm"/>
+    <rotation name="VstStave01_10inVSTrot" x="-90" y="-18" z="180" unit="deg"/>
+    <position name="VstStave01_11inVSTpos" x="1.27135489446" y="-4.74476106058" z="0" unit="cm"/>
+    <rotation name="VstStave01_11inVSTrot" x="-90" y="-3" z="180" unit="deg"/>
+    <position name="VstStave01_12inVSTpos" x="6.01563421063e-16" y="-4.91213810775" z="0" unit="cm"/>
+    <rotation name="VstStave01_12inVSTrot" x="-90" y="12" z="180" unit="deg"/>
+    <position name="VstStave01_13inVSTpos" x="-1.27135489446" y="-4.74476106058" z="0" unit="cm"/>
+    <rotation name="VstStave01_13inVSTrot" x="-90" y="27" z="180" unit="deg"/>
+    <position name="VstStave01_14inVSTpos" x="-2.45606905388" y="-4.25403638821" z="0" unit="cm"/>
+    <rotation name="VstStave01_14inVSTrot" x="-90" y="42" z="180" unit="deg"/>
+    <position name="VstStave01_15inVSTpos" x="-3.47340616612" y="-3.47340616612" z="0" unit="cm"/>
+    <rotation name="VstStave01_15inVSTrot" x="-90" y="57" z="180" unit="deg"/>
+    <position name="VstStave01_16inVSTpos" x="-4.25403638821" y="-2.45606905388" z="0" unit="cm"/>
+    <rotation name="VstStave01_16inVSTrot" x="-90" y="72" z="180" unit="deg"/>
+    <position name="VstStave01_17inVSTpos" x="-4.74476106058" y="-1.27135489446" z="0" unit="cm"/>
+    <rotation name="VstStave01_17inVSTrot" x="-90" y="87" z="180" unit="deg"/>
+    <position name="VstStave01_18inVSTpos" x="-4.91213810775" y="-9.02345131594e-16" z="0" unit="cm"/>
+    <rotation name="VstStave01_18inVSTrot" x="90" y="78" z="0" unit="deg"/>
+    <position name="VstStave01_19inVSTpos" x="-4.74476106058" y="1.27135489446" z="0" unit="cm"/>
+    <rotation name="VstStave01_19inVSTrot" x="90" y="63" z="0" unit="deg"/>
+    <position name="VstStave01_20inVSTpos" x="-4.25403638821" y="2.45606905388" z="0" unit="cm"/>
+    <rotation name="VstStave01_20inVSTrot" x="90" y="48" z="0" unit="deg"/>
+    <position name="VstStave01_21inVSTpos" x="-3.47340616612" y="3.47340616612" z="0" unit="cm"/>
+    <rotation name="VstStave01_21inVSTrot" x="90" y="33" z="0" unit="deg"/>
+    <position name="VstStave01_22inVSTpos" x="-2.45606905388" y="4.25403638821" z="0" unit="cm"/>
+    <rotation name="VstStave01_22inVSTrot" x="90" y="18" z="0" unit="deg"/>
+    <position name="VstStave01_23inVSTpos" x="-1.27135489446" y="4.74476106058" z="0" unit="cm"/>
+    <rotation name="VstStave01_23inVSTrot" x="90" y="3" z="0" unit="deg"/>
+    <position name="VstCellFlexLayer02_0inVstChipAssembly02pos" x="0" y="0" z="-0.872109795609" unit="cm"/>
+    <position name="VstAluStrips02_0inVstChipAssembly02pos" x="0" y="0" z="-0.827109795609" unit="cm"/>
+    <position name="VstMimosaCore02_0inVstMimosaShell02pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="VstMimosaShell02_0inVstChipAssembly02pos" x="0" y="0" z="-0.809609795609" unit="cm"/>
+    <position name="VstColdPlate02_0inVstChipAssembly02pos" x="0" y="0" z="-0.785109795609" unit="cm"/>
+    <position name="VstWaterPipe02_0inVstChipAssembly02pos" x="1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWaterPipe02_0inVstChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater02_0inVstChipAssembly02pos" x="1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWater02_0inVstChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWaterPipe02_1inVstChipAssembly02pos" x="-1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWaterPipe02_1inVstChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater02_1inVstChipAssembly02pos" x="-1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWater02_1inVstChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamApex02_0inVstChipAssembly02pos" x="0" y="0" z="0.0" unit="cm"/>
+    <rotation name="VstEnforcementBeamApex02_0inVstChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamBase02_0inVstChipAssembly02pos" x="-2.88" y="0" z="-0.728468779457" unit="cm"/>
+    <position name="VstEnforcementBeamBase02_1inVstChipAssembly02pos" x="2.88" y="0" z="-0.728468779457" unit="cm"/>
+    <rotation name="VstEnforcementBeamBase02_1inVstChipAssembly02rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="VstFlatRoof02_2inVstSideWall02pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="VstRoofSideBeam02_0inVstSideWall02pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam02_0inVstSideWall02rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="VstRoofSideBeam02_1inVstSideWall02pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam02_1inVstSideWall02rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="VstRoofSideBeam02_2inVstSideWall02pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam02_2inVstSideWall02rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="VstRoofSideBeam02_3inVstSideWall02pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam02_3inVstSideWall02rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="VstSideWall02_0inVstChipAssembly02pos" x="1.50625" y="0" z="0.113740925723" unit="cm"/>
+    <rotation name="VstSideWall02_0inVstChipAssembly02rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="VstSideWall02_1inVstChipAssembly02pos" x="-1.50625" y="0" z="0.113740925723" unit="cm"/>
+    <rotation name="VstSideWall02_1inVstChipAssembly02rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="VstChipAssembly02_0inVstStave02pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_1inVstStave02pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_2inVstStave02pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_3inVstStave02pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_4inVstStave02pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_5inVstStave02pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_6inVstStave02pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_7inVstStave02pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_8inVstStave02pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_9inVstStave02pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_10inVstStave02pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_11inVstStave02pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_12inVstStave02pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_13inVstStave02pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_14inVstStave02pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_15inVstStave02pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_16inVstStave02pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_17inVstStave02pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_18inVstStave02pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_19inVstStave02pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_20inVstStave02pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_21inVstStave02pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_22inVstStave02pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_23inVstStave02pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_24inVstStave02pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_25inVstStave02pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_26inVstStave02pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="VstChipAssembly02_27inVstStave02pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="VstStave02_0inVSTpos" x="0" y="9.56724965801" z="0" unit="cm"/>
+    <rotation name="VstStave02_0inVSTrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="VstStave02_1inVSTpos" x="5.62348825398" y="7.74006756276" z="0" unit="cm"/>
+    <rotation name="VstStave02_1inVSTrot" x="90" y="-42" z="0" unit="deg"/>
+    <position name="VstStave02_2inVSTpos" x="9.09899513027" y="2.95644273375" z="0" unit="cm"/>
+    <rotation name="VstStave02_2inVSTrot" x="90" y="-78" z="0" unit="deg"/>
+    <position name="VstStave02_3inVSTpos" x="9.09899513027" y="-2.95644273375" z="0" unit="cm"/>
+    <rotation name="VstStave02_3inVSTrot" x="-90" y="-66" z="180" unit="deg"/>
+    <position name="VstStave02_4inVSTpos" x="5.62348825398" y="-7.74006756276" z="0" unit="cm"/>
+    <rotation name="VstStave02_4inVSTrot" x="-90" y="-30" z="180" unit="deg"/>
+    <position name="VstStave02_5inVSTpos" x="1.17165016703e-15" y="-9.56724965801" z="0" unit="cm"/>
+    <rotation name="VstStave02_5inVSTrot" x="-90" y="6" z="180" unit="deg"/>
+    <position name="VstStave02_6inVSTpos" x="-5.62348825398" y="-7.74006756276" z="0" unit="cm"/>
+    <rotation name="VstStave02_6inVSTrot" x="-90" y="42" z="180" unit="deg"/>
+    <position name="VstStave02_7inVSTpos" x="-9.09899513027" y="-2.95644273375" z="0" unit="cm"/>
+    <rotation name="VstStave02_7inVSTrot" x="-90" y="78" z="180" unit="deg"/>
+    <position name="VstStave02_8inVSTpos" x="-9.09899513027" y="2.95644273375" z="0" unit="cm"/>
+    <rotation name="VstStave02_8inVSTrot" x="90" y="66" z="0" unit="deg"/>
+    <position name="VstStave02_9inVSTpos" x="-5.62348825398" y="7.74006756276" z="0" unit="cm"/>
+    <rotation name="VstStave02_9inVSTrot" x="90" y="30" z="0" unit="deg"/>
+    <position name="VstCellFlexLayer03_0inVstChipAssembly03pos" x="0" y="0" z="-0.872109795609" unit="cm"/>
+    <position name="VstAluStrips03_0inVstChipAssembly03pos" x="0" y="0" z="-0.827109795609" unit="cm"/>
+    <position name="VstMimosaCore03_0inVstMimosaShell03pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="VstMimosaShell03_0inVstChipAssembly03pos" x="0" y="0" z="-0.809609795609" unit="cm"/>
+    <position name="VstColdPlate03_0inVstChipAssembly03pos" x="0" y="0" z="-0.785109795609" unit="cm"/>
+    <position name="VstWaterPipe03_0inVstChipAssembly03pos" x="1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWaterPipe03_0inVstChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater03_0inVstChipAssembly03pos" x="1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWater03_0inVstChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWaterPipe03_1inVstChipAssembly03pos" x="-1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWaterPipe03_1inVstChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstWater03_1inVstChipAssembly03pos" x="-1" y="0" z="-0.709409795609" unit="cm"/>
+    <rotation name="VstWater03_1inVstChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamApex03_0inVstChipAssembly03pos" x="0" y="0" z="0.0" unit="cm"/>
+    <rotation name="VstEnforcementBeamApex03_0inVstChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="VstEnforcementBeamBase03_0inVstChipAssembly03pos" x="-2.88" y="0" z="-0.728468779457" unit="cm"/>
+    <position name="VstEnforcementBeamBase03_1inVstChipAssembly03pos" x="2.88" y="0" z="-0.728468779457" unit="cm"/>
+    <rotation name="VstEnforcementBeamBase03_1inVstChipAssembly03rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="VstFlatRoof03_2inVstSideWall03pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="VstRoofSideBeam03_0inVstSideWall03pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam03_0inVstSideWall03rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="VstRoofSideBeam03_1inVstSideWall03pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam03_1inVstSideWall03rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="VstRoofSideBeam03_2inVstSideWall03pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam03_2inVstSideWall03rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="VstRoofSideBeam03_3inVstSideWall03pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="VstRoofSideBeam03_3inVstSideWall03rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="VstSideWall03_0inVstChipAssembly03pos" x="1.50625" y="0" z="0.113740925723" unit="cm"/>
+    <rotation name="VstSideWall03_0inVstChipAssembly03rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="VstSideWall03_1inVstChipAssembly03pos" x="-1.50625" y="0" z="0.113740925723" unit="cm"/>
+    <rotation name="VstSideWall03_1inVstChipAssembly03rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="VstChipAssembly03_0inVstStave03pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_1inVstStave03pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_2inVstStave03pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_3inVstStave03pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_4inVstStave03pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_5inVstStave03pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_6inVstStave03pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_7inVstStave03pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_8inVstStave03pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_9inVstStave03pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_10inVstStave03pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_11inVstStave03pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_12inVstStave03pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_13inVstStave03pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_14inVstStave03pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_15inVstStave03pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_16inVstStave03pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_17inVstStave03pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_18inVstStave03pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_19inVstStave03pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_20inVstStave03pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_21inVstStave03pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_22inVstStave03pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_23inVstStave03pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_24inVstStave03pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_25inVstStave03pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_26inVstStave03pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="VstChipAssembly03_27inVstStave03pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="VstStave03_0inVSTpos" x="0" y="14.1873916852" z="0" unit="cm"/>
+    <rotation name="VstStave03_0inVSTrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="VstStave03_1inVSTpos" x="5.42927974642" y="13.1074407977" z="0" unit="cm"/>
+    <rotation name="VstStave03_1inVSTrot" x="90" y="-28.5" z="0" unit="deg"/>
+    <position name="VstStave03_2inVSTpos" x="10.032000868" y="10.032000868" z="0" unit="cm"/>
+    <rotation name="VstStave03_2inVSTrot" x="90" y="-51" z="0" unit="deg"/>
+    <position name="VstStave03_3inVSTpos" x="13.1074407977" y="5.42927974642" z="0" unit="cm"/>
+    <rotation name="VstStave03_3inVSTrot" x="90" y="-73.5" z="0" unit="deg"/>
+    <position name="VstStave03_4inVSTpos" x="14.1873916852" y="8.68727190779e-16" z="0" unit="cm"/>
+    <rotation name="VstStave03_4inVSTrot" x="-90" y="-84" z="180" unit="deg"/>
+    <position name="VstStave03_5inVSTpos" x="13.1074407977" y="-5.42927974642" z="0" unit="cm"/>
+    <rotation name="VstStave03_5inVSTrot" x="-90" y="-61.5" z="180" unit="deg"/>
+    <position name="VstStave03_6inVSTpos" x="10.032000868" y="-10.032000868" z="0" unit="cm"/>
+    <rotation name="VstStave03_6inVSTrot" x="-90" y="-39" z="180" unit="deg"/>
+    <position name="VstStave03_7inVSTpos" x="5.42927974642" y="-13.1074407977" z="0" unit="cm"/>
+    <rotation name="VstStave03_7inVSTrot" x="-90" y="-16.5" z="180" unit="deg"/>
+    <position name="VstStave03_8inVSTpos" x="1.73745438156e-15" y="-14.1873916852" z="0" unit="cm"/>
+    <rotation name="VstStave03_8inVSTrot" x="-90" y="6" z="180" unit="deg"/>
+    <position name="VstStave03_9inVSTpos" x="-5.42927974642" y="-13.1074407977" z="0" unit="cm"/>
+    <rotation name="VstStave03_9inVSTrot" x="-90" y="28.5" z="180" unit="deg"/>
+    <position name="VstStave03_10inVSTpos" x="-10.032000868" y="-10.032000868" z="0" unit="cm"/>
+    <rotation name="VstStave03_10inVSTrot" x="-90" y="51" z="180" unit="deg"/>
+    <position name="VstStave03_11inVSTpos" x="-13.1074407977" y="-5.42927974642" z="0" unit="cm"/>
+    <rotation name="VstStave03_11inVSTrot" x="-90" y="73.5" z="180" unit="deg"/>
+    <position name="VstStave03_12inVSTpos" x="-14.1873916852" y="-2.60618157234e-15" z="0" unit="cm"/>
+    <rotation name="VstStave03_12inVSTrot" x="90" y="84" z="0" unit="deg"/>
+    <position name="VstStave03_13inVSTpos" x="-13.1074407977" y="5.42927974642" z="0" unit="cm"/>
+    <rotation name="VstStave03_13inVSTrot" x="90" y="61.5" z="0" unit="deg"/>
+    <position name="VstStave03_14inVSTpos" x="-10.032000868" y="10.032000868" z="0" unit="cm"/>
+    <rotation name="VstStave03_14inVSTrot" x="90" y="39" z="0" unit="deg"/>
+    <position name="VstStave03_15inVSTpos" x="-5.42927974642" y="13.1074407977" z="0" unit="cm"/>
+    <rotation name="VstStave03_15inVSTrot" x="90" y="16.5" z="0" unit="deg"/>
+    <position name="VST_0inVstGeantGeoWrapperpos" x="0" y="0" z="0" unit="cm"/>
+  </define>
+  <materials>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.00674"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="ARGON_elm" formula="AR" Z="18">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <material name="air">
+      <D unit="g/cm3" value="0.001205"/>
+      <fraction n="0.0140000004321" ref="ARGON_elm"/>
+      <fraction n="0.754999995232" ref="NITROGEN_elm"/>
+      <fraction n="0.231000006199" ref="OXYGEN_elm"/>
+    </material>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.00794"/>
+    </element>
+    <material name="MapsKapton">
+      <D unit="g/cm3" value="1.42"/>
+      <fraction n="0.691128671169" ref="CARBON_elm"/>
+      <fraction n="0.0263643823564" ref="HYDROGEN_elm"/>
+      <fraction n="0.0732657834888" ref="NITROGEN_elm"/>
+      <fraction n="0.209241136909" ref="OXYGEN_elm"/>
+    </material>
+    <material name="aluminum" Z="13">
+      <D unit="g/cm3" value="2.7"/>
+      <atom unit="g/mole" value="26.98"/>
+    </material>
+    <material name="silicon" Z="14">
+      <D unit="g/cm3" value="2.33"/>
+      <atom unit="g/mole" value="28.086"/>
+    </material>
+    <material name="MapsCarbonFiber" Z="6">
+      <D unit="g/cm3" value="1.63"/>
+      <atom unit="g/mole" value="12.011"/>
+    </material>
+    <material name="water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.111900530756" ref="HYDROGEN_elm"/>
+      <fraction n="0.888099491596" ref="OXYGEN_elm"/>
+    </material>
+  </materials>
+  <solids>
+    <trd name="VstStave000x1" x1="1.75" x2="0" y1="27.09" y2="27.09" z="0.505181485541" lunit="cm"/>
+    <trd name="VstChipAssembly000x1" x1="1.75" x2="0" y1="3.01" y2="3.01" z="0.505181485541" lunit="cm"/>
+    <box name="VstCellFlexLayer000x1" x="1.5" y="3.01" z="0.01" lunit="cm"/>
+    <box name="VstAluStrips000x1" x="1.5" y="3.01" z="0.005" lunit="cm"/>
+    <box name="VstMimosaShell000x1" x="1.5" y="3" z="0.005" lunit="cm"/>
+    <box name="VstMimosaCore000x1" x="1.3" y="3" z="0.0018" lunit="cm"/>
+    <box name="VstColdPlate000x1" x="1.5" y="3.01" z="0.0265" lunit="cm"/>
+    <tube name="VstWaterPipe000x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstWater000x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstEnforcementBeamApex000x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="VstEnforcementBeamBase000x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="VstSideWall000x1" x="0.866025403784" y="3.01" z="0.025" lunit="cm"/>
+    <box name="VstFlatRoof000x1" x="0.866025403784" y="3.01" z="0.005" lunit="cm"/>
+    <box name="VstRoofSideBeam000x1" x="1.05348729517" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="VstStave010x1" x1="1.75" x2="0" y1="27.09" y2="27.09" z="0.505181485541" lunit="cm"/>
+    <trd name="VstChipAssembly010x1" x1="1.75" x2="0" y1="3.01" y2="3.01" z="0.505181485541" lunit="cm"/>
+    <box name="VstCellFlexLayer010x1" x="1.5" y="3.01" z="0.01" lunit="cm"/>
+    <box name="VstAluStrips010x1" x="1.5" y="3.01" z="0.005" lunit="cm"/>
+    <box name="VstMimosaShell010x1" x="1.5" y="3" z="0.005" lunit="cm"/>
+    <box name="VstMimosaCore010x1" x="1.3" y="3" z="0.0018" lunit="cm"/>
+    <box name="VstColdPlate010x1" x="1.5" y="3.01" z="0.0265" lunit="cm"/>
+    <tube name="VstWaterPipe010x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstWater010x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstEnforcementBeamApex010x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="VstEnforcementBeamBase010x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="VstSideWall010x1" x="0.866025403784" y="3.01" z="0.025" lunit="cm"/>
+    <box name="VstFlatRoof010x1" x="0.866025403784" y="3.01" z="0.005" lunit="cm"/>
+    <box name="VstRoofSideBeam010x1" x="1.05348729517" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="VstStave020x1" x1="6.25" x2="0" y1="84.28" y2="84.28" z="1.80421959122" lunit="cm"/>
+    <trd name="VstChipAssembly020x1" x1="6.25" x2="0" y1="3.01" y2="3.01" z="1.80421959122" lunit="cm"/>
+    <box name="VstCellFlexLayer020x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="VstAluStrips020x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="VstMimosaShell020x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="VstMimosaCore020x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="VstColdPlate020x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="VstWaterPipe020x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstWater020x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstEnforcementBeamApex020x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="VstEnforcementBeamBase020x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="VstSideWall020x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="VstFlatRoof020x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="VstRoofSideBeam020x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="VstStave030x1" x1="6.25" x2="0" y1="84.28" y2="84.28" z="1.80421959122" lunit="cm"/>
+    <trd name="VstChipAssembly030x1" x1="6.25" x2="0" y1="3.01" y2="3.01" z="1.80421959122" lunit="cm"/>
+    <box name="VstCellFlexLayer030x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="VstAluStrips030x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="VstMimosaShell030x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="VstMimosaCore030x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="VstColdPlate030x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="VstWaterPipe030x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstWater030x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="VstEnforcementBeamApex030x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="VstEnforcementBeamBase030x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="VstSideWall030x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="VstFlatRoof030x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="VstRoofSideBeam030x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+  </solids>
+  <structure>
+    <volume name="VstCellFlexLayer00">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstCellFlexLayer000x1"/>
+    </volume>
+    <volume name="VstAluStrips00">
+      <materialref ref="aluminum"/>
+      <solidref ref="VstAluStrips000x1"/>
+    </volume>
+    <volume name="VstMimosaCore00">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaCore000x1"/>
+    </volume>
+    <volume name="VstMimosaShell00">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaShell000x1"/>
+      <physvol>
+        <volumeref ref="VstMimosaCore00"/>
+        <positionref ref="VstMimosaCore00_0inVstMimosaShell00pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstColdPlate00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstColdPlate000x1"/>
+    </volume>
+    <volume name="VstWaterPipe00">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstWaterPipe000x1"/>
+    </volume>
+    <volume name="VstWater00">
+      <materialref ref="water"/>
+      <solidref ref="VstWater000x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamApex00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamApex000x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamBase00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamBase000x1"/>
+    </volume>
+    <volume name="VstFlatRoof00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstFlatRoof000x1"/>
+    </volume>
+    <volume name="VstRoofSideBeam00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstRoofSideBeam000x1"/>
+    </volume>
+    <volume name="VstSideWall00">
+      <materialref ref="air"/>
+      <solidref ref="VstSideWall000x1"/>
+      <physvol>
+        <volumeref ref="VstFlatRoof00"/>
+        <positionref ref="VstFlatRoof00_2inVstSideWall00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam00"/>
+        <positionref ref="VstRoofSideBeam00_0inVstSideWall00pos"/>
+        <rotationref ref="VstRoofSideBeam00_0inVstSideWall00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam00"/>
+        <positionref ref="VstRoofSideBeam00_1inVstSideWall00pos"/>
+        <rotationref ref="VstRoofSideBeam00_1inVstSideWall00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam00"/>
+        <positionref ref="VstRoofSideBeam00_2inVstSideWall00pos"/>
+        <rotationref ref="VstRoofSideBeam00_2inVstSideWall00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam00"/>
+        <positionref ref="VstRoofSideBeam00_3inVstSideWall00pos"/>
+        <rotationref ref="VstRoofSideBeam00_3inVstSideWall00rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstChipAssembly00">
+      <materialref ref="air"/>
+      <solidref ref="VstChipAssembly000x1"/>
+      <physvol>
+        <volumeref ref="VstCellFlexLayer00"/>
+        <positionref ref="VstCellFlexLayer00_0inVstChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstAluStrips00"/>
+        <positionref ref="VstAluStrips00_0inVstChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstMimosaShell00"/>
+        <positionref ref="VstMimosaShell00_0inVstChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstColdPlate00"/>
+        <positionref ref="VstColdPlate00_0inVstChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe00"/>
+        <positionref ref="VstWaterPipe00_0inVstChipAssembly00pos"/>
+        <rotationref ref="VstWaterPipe00_0inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater00"/>
+        <positionref ref="VstWater00_0inVstChipAssembly00pos"/>
+        <rotationref ref="VstWater00_0inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe00"/>
+        <positionref ref="VstWaterPipe00_1inVstChipAssembly00pos"/>
+        <rotationref ref="VstWaterPipe00_1inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater00"/>
+        <positionref ref="VstWater00_1inVstChipAssembly00pos"/>
+        <rotationref ref="VstWater00_1inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamApex00"/>
+        <positionref ref="VstEnforcementBeamApex00_0inVstChipAssembly00pos"/>
+        <rotationref ref="VstEnforcementBeamApex00_0inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase00"/>
+        <positionref ref="VstEnforcementBeamBase00_0inVstChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase00"/>
+        <positionref ref="VstEnforcementBeamBase00_1inVstChipAssembly00pos"/>
+        <rotationref ref="VstEnforcementBeamBase00_1inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall00"/>
+        <positionref ref="VstSideWall00_0inVstChipAssembly00pos"/>
+        <rotationref ref="VstSideWall00_0inVstChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall00"/>
+        <positionref ref="VstSideWall00_1inVstChipAssembly00pos"/>
+        <rotationref ref="VstSideWall00_1inVstChipAssembly00rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstStave00">
+      <materialref ref="air"/>
+      <solidref ref="VstStave000x1"/>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_0inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_1inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_2inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_3inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_4inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_5inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_6inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_7inVstStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly00"/>
+        <positionref ref="VstChipAssembly00_8inVstStave00pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstCellFlexLayer01">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstCellFlexLayer010x1"/>
+    </volume>
+    <volume name="VstAluStrips01">
+      <materialref ref="aluminum"/>
+      <solidref ref="VstAluStrips010x1"/>
+    </volume>
+    <volume name="VstMimosaCore01">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaCore010x1"/>
+    </volume>
+    <volume name="VstMimosaShell01">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaShell010x1"/>
+      <physvol>
+        <volumeref ref="VstMimosaCore01"/>
+        <positionref ref="VstMimosaCore01_0inVstMimosaShell01pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstColdPlate01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstColdPlate010x1"/>
+    </volume>
+    <volume name="VstWaterPipe01">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstWaterPipe010x1"/>
+    </volume>
+    <volume name="VstWater01">
+      <materialref ref="water"/>
+      <solidref ref="VstWater010x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamApex01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamApex010x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamBase01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamBase010x1"/>
+    </volume>
+    <volume name="VstFlatRoof01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstFlatRoof010x1"/>
+    </volume>
+    <volume name="VstRoofSideBeam01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstRoofSideBeam010x1"/>
+    </volume>
+    <volume name="VstSideWall01">
+      <materialref ref="air"/>
+      <solidref ref="VstSideWall010x1"/>
+      <physvol>
+        <volumeref ref="VstFlatRoof01"/>
+        <positionref ref="VstFlatRoof01_2inVstSideWall01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam01"/>
+        <positionref ref="VstRoofSideBeam01_0inVstSideWall01pos"/>
+        <rotationref ref="VstRoofSideBeam01_0inVstSideWall01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam01"/>
+        <positionref ref="VstRoofSideBeam01_1inVstSideWall01pos"/>
+        <rotationref ref="VstRoofSideBeam01_1inVstSideWall01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam01"/>
+        <positionref ref="VstRoofSideBeam01_2inVstSideWall01pos"/>
+        <rotationref ref="VstRoofSideBeam01_2inVstSideWall01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam01"/>
+        <positionref ref="VstRoofSideBeam01_3inVstSideWall01pos"/>
+        <rotationref ref="VstRoofSideBeam01_3inVstSideWall01rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstChipAssembly01">
+      <materialref ref="air"/>
+      <solidref ref="VstChipAssembly010x1"/>
+      <physvol>
+        <volumeref ref="VstCellFlexLayer01"/>
+        <positionref ref="VstCellFlexLayer01_0inVstChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstAluStrips01"/>
+        <positionref ref="VstAluStrips01_0inVstChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstMimosaShell01"/>
+        <positionref ref="VstMimosaShell01_0inVstChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstColdPlate01"/>
+        <positionref ref="VstColdPlate01_0inVstChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe01"/>
+        <positionref ref="VstWaterPipe01_0inVstChipAssembly01pos"/>
+        <rotationref ref="VstWaterPipe01_0inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater01"/>
+        <positionref ref="VstWater01_0inVstChipAssembly01pos"/>
+        <rotationref ref="VstWater01_0inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe01"/>
+        <positionref ref="VstWaterPipe01_1inVstChipAssembly01pos"/>
+        <rotationref ref="VstWaterPipe01_1inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater01"/>
+        <positionref ref="VstWater01_1inVstChipAssembly01pos"/>
+        <rotationref ref="VstWater01_1inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamApex01"/>
+        <positionref ref="VstEnforcementBeamApex01_0inVstChipAssembly01pos"/>
+        <rotationref ref="VstEnforcementBeamApex01_0inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase01"/>
+        <positionref ref="VstEnforcementBeamBase01_0inVstChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase01"/>
+        <positionref ref="VstEnforcementBeamBase01_1inVstChipAssembly01pos"/>
+        <rotationref ref="VstEnforcementBeamBase01_1inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall01"/>
+        <positionref ref="VstSideWall01_0inVstChipAssembly01pos"/>
+        <rotationref ref="VstSideWall01_0inVstChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall01"/>
+        <positionref ref="VstSideWall01_1inVstChipAssembly01pos"/>
+        <rotationref ref="VstSideWall01_1inVstChipAssembly01rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstStave01">
+      <materialref ref="air"/>
+      <solidref ref="VstStave010x1"/>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_0inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_1inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_2inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_3inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_4inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_5inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_6inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_7inVstStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly01"/>
+        <positionref ref="VstChipAssembly01_8inVstStave01pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstCellFlexLayer02">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstCellFlexLayer020x1"/>
+    </volume>
+    <volume name="VstAluStrips02">
+      <materialref ref="aluminum"/>
+      <solidref ref="VstAluStrips020x1"/>
+    </volume>
+    <volume name="VstMimosaCore02">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaCore020x1"/>
+    </volume>
+    <volume name="VstMimosaShell02">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaShell020x1"/>
+      <physvol>
+        <volumeref ref="VstMimosaCore02"/>
+        <positionref ref="VstMimosaCore02_0inVstMimosaShell02pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstColdPlate02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstColdPlate020x1"/>
+    </volume>
+    <volume name="VstWaterPipe02">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstWaterPipe020x1"/>
+    </volume>
+    <volume name="VstWater02">
+      <materialref ref="water"/>
+      <solidref ref="VstWater020x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamApex02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamApex020x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamBase02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamBase020x1"/>
+    </volume>
+    <volume name="VstFlatRoof02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstFlatRoof020x1"/>
+    </volume>
+    <volume name="VstRoofSideBeam02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstRoofSideBeam020x1"/>
+    </volume>
+    <volume name="VstSideWall02">
+      <materialref ref="air"/>
+      <solidref ref="VstSideWall020x1"/>
+      <physvol>
+        <volumeref ref="VstFlatRoof02"/>
+        <positionref ref="VstFlatRoof02_2inVstSideWall02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam02"/>
+        <positionref ref="VstRoofSideBeam02_0inVstSideWall02pos"/>
+        <rotationref ref="VstRoofSideBeam02_0inVstSideWall02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam02"/>
+        <positionref ref="VstRoofSideBeam02_1inVstSideWall02pos"/>
+        <rotationref ref="VstRoofSideBeam02_1inVstSideWall02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam02"/>
+        <positionref ref="VstRoofSideBeam02_2inVstSideWall02pos"/>
+        <rotationref ref="VstRoofSideBeam02_2inVstSideWall02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam02"/>
+        <positionref ref="VstRoofSideBeam02_3inVstSideWall02pos"/>
+        <rotationref ref="VstRoofSideBeam02_3inVstSideWall02rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstChipAssembly02">
+      <materialref ref="air"/>
+      <solidref ref="VstChipAssembly020x1"/>
+      <physvol>
+        <volumeref ref="VstCellFlexLayer02"/>
+        <positionref ref="VstCellFlexLayer02_0inVstChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstAluStrips02"/>
+        <positionref ref="VstAluStrips02_0inVstChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstMimosaShell02"/>
+        <positionref ref="VstMimosaShell02_0inVstChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstColdPlate02"/>
+        <positionref ref="VstColdPlate02_0inVstChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe02"/>
+        <positionref ref="VstWaterPipe02_0inVstChipAssembly02pos"/>
+        <rotationref ref="VstWaterPipe02_0inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater02"/>
+        <positionref ref="VstWater02_0inVstChipAssembly02pos"/>
+        <rotationref ref="VstWater02_0inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe02"/>
+        <positionref ref="VstWaterPipe02_1inVstChipAssembly02pos"/>
+        <rotationref ref="VstWaterPipe02_1inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater02"/>
+        <positionref ref="VstWater02_1inVstChipAssembly02pos"/>
+        <rotationref ref="VstWater02_1inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamApex02"/>
+        <positionref ref="VstEnforcementBeamApex02_0inVstChipAssembly02pos"/>
+        <rotationref ref="VstEnforcementBeamApex02_0inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase02"/>
+        <positionref ref="VstEnforcementBeamBase02_0inVstChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase02"/>
+        <positionref ref="VstEnforcementBeamBase02_1inVstChipAssembly02pos"/>
+        <rotationref ref="VstEnforcementBeamBase02_1inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall02"/>
+        <positionref ref="VstSideWall02_0inVstChipAssembly02pos"/>
+        <rotationref ref="VstSideWall02_0inVstChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall02"/>
+        <positionref ref="VstSideWall02_1inVstChipAssembly02pos"/>
+        <rotationref ref="VstSideWall02_1inVstChipAssembly02rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstStave02">
+      <materialref ref="air"/>
+      <solidref ref="VstStave020x1"/>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_0inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_1inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_2inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_3inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_4inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_5inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_6inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_7inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_8inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_9inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_10inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_11inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_12inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_13inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_14inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_15inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_16inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_17inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_18inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_19inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_20inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_21inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_22inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_23inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_24inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_25inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_26inVstStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly02"/>
+        <positionref ref="VstChipAssembly02_27inVstStave02pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstCellFlexLayer03">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstCellFlexLayer030x1"/>
+    </volume>
+    <volume name="VstAluStrips03">
+      <materialref ref="aluminum"/>
+      <solidref ref="VstAluStrips030x1"/>
+    </volume>
+    <volume name="VstMimosaCore03">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaCore030x1"/>
+    </volume>
+    <volume name="VstMimosaShell03">
+      <materialref ref="silicon"/>
+      <solidref ref="VstMimosaShell030x1"/>
+      <physvol>
+        <volumeref ref="VstMimosaCore03"/>
+        <positionref ref="VstMimosaCore03_0inVstMimosaShell03pos"/>
+      </physvol>
+    </volume>
+    <volume name="VstColdPlate03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstColdPlate030x1"/>
+    </volume>
+    <volume name="VstWaterPipe03">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="VstWaterPipe030x1"/>
+    </volume>
+    <volume name="VstWater03">
+      <materialref ref="water"/>
+      <solidref ref="VstWater030x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamApex03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamApex030x1"/>
+    </volume>
+    <volume name="VstEnforcementBeamBase03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstEnforcementBeamBase030x1"/>
+    </volume>
+    <volume name="VstFlatRoof03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstFlatRoof030x1"/>
+    </volume>
+    <volume name="VstRoofSideBeam03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="VstRoofSideBeam030x1"/>
+    </volume>
+    <volume name="VstSideWall03">
+      <materialref ref="air"/>
+      <solidref ref="VstSideWall030x1"/>
+      <physvol>
+        <volumeref ref="VstFlatRoof03"/>
+        <positionref ref="VstFlatRoof03_2inVstSideWall03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam03"/>
+        <positionref ref="VstRoofSideBeam03_0inVstSideWall03pos"/>
+        <rotationref ref="VstRoofSideBeam03_0inVstSideWall03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam03"/>
+        <positionref ref="VstRoofSideBeam03_1inVstSideWall03pos"/>
+        <rotationref ref="VstRoofSideBeam03_1inVstSideWall03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam03"/>
+        <positionref ref="VstRoofSideBeam03_2inVstSideWall03pos"/>
+        <rotationref ref="VstRoofSideBeam03_2inVstSideWall03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstRoofSideBeam03"/>
+        <positionref ref="VstRoofSideBeam03_3inVstSideWall03pos"/>
+        <rotationref ref="VstRoofSideBeam03_3inVstSideWall03rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstChipAssembly03">
+      <materialref ref="air"/>
+      <solidref ref="VstChipAssembly030x1"/>
+      <physvol>
+        <volumeref ref="VstCellFlexLayer03"/>
+        <positionref ref="VstCellFlexLayer03_0inVstChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstAluStrips03"/>
+        <positionref ref="VstAluStrips03_0inVstChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstMimosaShell03"/>
+        <positionref ref="VstMimosaShell03_0inVstChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstColdPlate03"/>
+        <positionref ref="VstColdPlate03_0inVstChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe03"/>
+        <positionref ref="VstWaterPipe03_0inVstChipAssembly03pos"/>
+        <rotationref ref="VstWaterPipe03_0inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater03"/>
+        <positionref ref="VstWater03_0inVstChipAssembly03pos"/>
+        <rotationref ref="VstWater03_0inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWaterPipe03"/>
+        <positionref ref="VstWaterPipe03_1inVstChipAssembly03pos"/>
+        <rotationref ref="VstWaterPipe03_1inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstWater03"/>
+        <positionref ref="VstWater03_1inVstChipAssembly03pos"/>
+        <rotationref ref="VstWater03_1inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamApex03"/>
+        <positionref ref="VstEnforcementBeamApex03_0inVstChipAssembly03pos"/>
+        <rotationref ref="VstEnforcementBeamApex03_0inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase03"/>
+        <positionref ref="VstEnforcementBeamBase03_0inVstChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstEnforcementBeamBase03"/>
+        <positionref ref="VstEnforcementBeamBase03_1inVstChipAssembly03pos"/>
+        <rotationref ref="VstEnforcementBeamBase03_1inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall03"/>
+        <positionref ref="VstSideWall03_0inVstChipAssembly03pos"/>
+        <rotationref ref="VstSideWall03_0inVstChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstSideWall03"/>
+        <positionref ref="VstSideWall03_1inVstChipAssembly03pos"/>
+        <rotationref ref="VstSideWall03_1inVstChipAssembly03rot"/>
+      </physvol>
+    </volume>
+    <volume name="VstStave03">
+      <materialref ref="air"/>
+      <solidref ref="VstStave030x1"/>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_0inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_1inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_2inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_3inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_4inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_5inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_6inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_7inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_8inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_9inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_10inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_11inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_12inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_13inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_14inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_15inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_16inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_17inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_18inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_19inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_20inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_21inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_22inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_23inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_24inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_25inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_26inVstStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstChipAssembly03"/>
+        <positionref ref="VstChipAssembly03_27inVstStave03pos"/>
+      </physvol>
+    </volume>
+    <assembly name="VST">
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_0inVSTpos"/>
+        <rotationref ref="VstStave00_0inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_1inVSTpos"/>
+        <rotationref ref="VstStave00_1inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_2inVSTpos"/>
+        <rotationref ref="VstStave00_2inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_3inVSTpos"/>
+        <rotationref ref="VstStave00_3inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_4inVSTpos"/>
+        <rotationref ref="VstStave00_4inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_5inVSTpos"/>
+        <rotationref ref="VstStave00_5inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_6inVSTpos"/>
+        <rotationref ref="VstStave00_6inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_7inVSTpos"/>
+        <rotationref ref="VstStave00_7inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_8inVSTpos"/>
+        <rotationref ref="VstStave00_8inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_9inVSTpos"/>
+        <rotationref ref="VstStave00_9inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_10inVSTpos"/>
+        <rotationref ref="VstStave00_10inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave00"/>
+        <positionref ref="VstStave00_11inVSTpos"/>
+        <rotationref ref="VstStave00_11inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_0inVSTpos"/>
+        <rotationref ref="VstStave01_0inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_1inVSTpos"/>
+        <rotationref ref="VstStave01_1inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_2inVSTpos"/>
+        <rotationref ref="VstStave01_2inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_3inVSTpos"/>
+        <rotationref ref="VstStave01_3inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_4inVSTpos"/>
+        <rotationref ref="VstStave01_4inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_5inVSTpos"/>
+        <rotationref ref="VstStave01_5inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_6inVSTpos"/>
+        <rotationref ref="VstStave01_6inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_7inVSTpos"/>
+        <rotationref ref="VstStave01_7inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_8inVSTpos"/>
+        <rotationref ref="VstStave01_8inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_9inVSTpos"/>
+        <rotationref ref="VstStave01_9inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_10inVSTpos"/>
+        <rotationref ref="VstStave01_10inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_11inVSTpos"/>
+        <rotationref ref="VstStave01_11inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_12inVSTpos"/>
+        <rotationref ref="VstStave01_12inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_13inVSTpos"/>
+        <rotationref ref="VstStave01_13inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_14inVSTpos"/>
+        <rotationref ref="VstStave01_14inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_15inVSTpos"/>
+        <rotationref ref="VstStave01_15inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_16inVSTpos"/>
+        <rotationref ref="VstStave01_16inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_17inVSTpos"/>
+        <rotationref ref="VstStave01_17inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_18inVSTpos"/>
+        <rotationref ref="VstStave01_18inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_19inVSTpos"/>
+        <rotationref ref="VstStave01_19inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_20inVSTpos"/>
+        <rotationref ref="VstStave01_20inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_21inVSTpos"/>
+        <rotationref ref="VstStave01_21inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_22inVSTpos"/>
+        <rotationref ref="VstStave01_22inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave01"/>
+        <positionref ref="VstStave01_23inVSTpos"/>
+        <rotationref ref="VstStave01_23inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_0inVSTpos"/>
+        <rotationref ref="VstStave02_0inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_1inVSTpos"/>
+        <rotationref ref="VstStave02_1inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_2inVSTpos"/>
+        <rotationref ref="VstStave02_2inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_3inVSTpos"/>
+        <rotationref ref="VstStave02_3inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_4inVSTpos"/>
+        <rotationref ref="VstStave02_4inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_5inVSTpos"/>
+        <rotationref ref="VstStave02_5inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_6inVSTpos"/>
+        <rotationref ref="VstStave02_6inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_7inVSTpos"/>
+        <rotationref ref="VstStave02_7inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_8inVSTpos"/>
+        <rotationref ref="VstStave02_8inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave02"/>
+        <positionref ref="VstStave02_9inVSTpos"/>
+        <rotationref ref="VstStave02_9inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_0inVSTpos"/>
+        <rotationref ref="VstStave03_0inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_1inVSTpos"/>
+        <rotationref ref="VstStave03_1inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_2inVSTpos"/>
+        <rotationref ref="VstStave03_2inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_3inVSTpos"/>
+        <rotationref ref="VstStave03_3inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_4inVSTpos"/>
+        <rotationref ref="VstStave03_4inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_5inVSTpos"/>
+        <rotationref ref="VstStave03_5inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_6inVSTpos"/>
+        <rotationref ref="VstStave03_6inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_7inVSTpos"/>
+        <rotationref ref="VstStave03_7inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_8inVSTpos"/>
+        <rotationref ref="VstStave03_8inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_9inVSTpos"/>
+        <rotationref ref="VstStave03_9inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_10inVSTpos"/>
+        <rotationref ref="VstStave03_10inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_11inVSTpos"/>
+        <rotationref ref="VstStave03_11inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_12inVSTpos"/>
+        <rotationref ref="VstStave03_12inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_13inVSTpos"/>
+        <rotationref ref="VstStave03_13inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_14inVSTpos"/>
+        <rotationref ref="VstStave03_14inVSTrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VstStave03"/>
+        <positionref ref="VstStave03_15inVSTpos"/>
+        <rotationref ref="VstStave03_15inVSTrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="VstGeantGeoWrapper">
+      <physvol>
+        <volumeref ref="VST"/>
+        <positionref ref="VST_0inVstGeantGeoWrapperpos"/>
+      </physvol>
+    </assembly>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="VstGeantGeoWrapper"/>
+  </setup>
+</gdml>
