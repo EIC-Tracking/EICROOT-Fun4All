@@ -31,8 +31,8 @@
 #include <phhepmc/Fun4AllHepMCInputManager.h>
 
 #include <gdmlimporter/GdmlImportDetectorSubsystem.h>
-#include <gdmlimporter/SimpleNtuple.h>
-#include <gdmlimporter/TrackFastSimEval.h>
+#include <gdmlimporter/HkSimpleNtuple.h>
+#include <gdmlimporter/HkTrackFastSimEval.h>
 
 //For MPGD from QH
 #include <g4exampledetector/PHG4CylinderStripSubsystem.h>
@@ -556,7 +556,7 @@ void Fun4All_G4_HybridBaseline(
 	
 
 	// ======================================================================================================
-	TrackFastSimEval *fast_sim_eval = new TrackFastSimEval("FastTrackingEval");
+	HkTrackFastSimEval *fast_sim_eval = new HkTrackFastSimEval("FastTrackingEval");
 	fast_sim_eval->set_filename(TString(outputFile)+B_label+"_FastTrackingEval.root");
 	//fast_sim_eval->AddProjection(radialBH);
 	//fast_sim_eval->AddProjection(forwardBH);
@@ -566,7 +566,7 @@ void Fun4All_G4_HybridBaseline(
 
 
 
-	SimpleNtuple * hits = new SimpleNtuple("Hits");
+	HkSimpleNtuple * hits = new HkSimpleNtuple("Hits");
 	#ifdef _BARREL_
 	//SVT starts at 10, to allow for absorbers before
 	//hits->AddNode("ABSORBER_SVT",0); // hits in the passive volumes
