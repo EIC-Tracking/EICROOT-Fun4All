@@ -53,7 +53,6 @@
 
 #include <TrackFastSimEval.h>
 #include "detector_setup.h"
-R__LOAD_LIBRARY(libeicdetectors.so)
 // FIXME: add to CMakeLists.txt;                                                
 R__LOAD_LIBRARY(libg4trackfastsim.so)
 R__LOAD_LIBRARY(libfun4all.so)
@@ -121,12 +120,11 @@ void Fun4All_G4_Tracking(int nEvents = 1)
 
   // fun4all Geant4 wrapper;                                                                                                                          
   PHG4Reco* g4Reco = new PHG4Reco();
-	
 	// BeAST magnetic field;                                                                                                                            
   g4Reco->set_field_map(string(getenv("CALIBRATIONROOT")) + string("/Field/Map/mfield.4col.dat"), PHFieldConfig::kFieldBeast);
 
   // EicRoot media import; neither bound to EicToyModel nor to a particular EicRoot detector;                                                         
-  EicGeoParData::ImportMediaFile("../../examples/eicroot/media.geo");
+  EicGeoParData::ImportMediaFile("media.geo");
 
 #ifdef _VST_
 
@@ -249,7 +247,7 @@ void Fun4All_G4_Tracking(int nEvents = 1)
           gdml->set_string_param("TopVolName", "ElectronForwardEnvelope");
           gdml->set_int_param("skip_DST_geometry_export", 1);  // do not export extended beam pipe as it is not supported by TGeo and outside Kalman \
 filter acceptance                                                                                                                                     
-          gdml->OverlapCheck(1);
+          gdml->OverlapCheck(overlapcheck);
           g4Reco->registerSubsystem(gdml);
         }
 
@@ -260,7 +258,7 @@ filter acceptance
           gdml->set_string_param("TopVolName", "HadronForwardEnvelope");
           gdml->set_int_param("skip_DST_geometry_export", 1);  // do not export extended beam pipe as it is not supported by TGeo and outside Kalman \
 filter acceptance                                                                                                                                     
-          gdml->OverlapCheck(1);
+          gdml->OverlapCheck(overlapcheck);
           g4Reco->registerSubsystem(gdml);
         }
 #endif
