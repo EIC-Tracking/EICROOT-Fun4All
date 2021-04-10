@@ -6,7 +6,7 @@
 //Silicon Barrel
 
 #define _BARREL_ //comment out this line for no silicon barrel
-#define _NO_OF_BARREL_LAYERS_ 3
+#define _NO_OF_BARREL_LAYERS_ 5
 
 
 //TPC
