@@ -15,10 +15,15 @@ copied the EicToyModel directory to my $HOME
 
 
 singularity shell -B /cvmfs:/cvmfs -B /direct/eic+u/akunnathv/scratch:/scratch/ /cvmfs/eic.opensciencegrid.org/singularity/rhic_sl7_ext.simg
+
 source /cvmfs/eic.opensciencegrid.org/default/opt/fun4all/core/bin/eic_setup.sh -n
+
 source /cvmfs/eic.opensciencegrid.org/default/opt/fun4all/core/bin/setup_local.sh $HOME/myinstall
+
 export LD_LIBRARY_PATH=$HOME/scratch/EicToyModel/build/lib:${OPT_SPHENIX}/vgm/lib64:${LD_LIBRARY_PATH}
+
 source /cvmfs/eic.opensciencegrid.org/default/opt/fun4all/core/bin/setup_local.sh $HOME/scratch/EicToyModel/fun4all_with_eicroot
+
 source /cvmfs/eic.opensciencegrid.org/default/opt/fun4all/core/bin/setup_local.sh $HOME/myinstall
 
 
